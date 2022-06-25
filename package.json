@@ -1,0 +1,24 @@
+{
+  "name": "ghiblibot",
+  "version": "1.0.0",
+  "description": "A Studio Ghibli Music Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Logan Reuter",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.7.0",
+    "@discordjs/voice": "^0.9.0",
+    "axios": "^0.27.2",
+    "discord.js": "^13.7.0",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^4.4.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "nodemon": "^2.0.16",
+    "tweetnacl": "^1.0.3",
+    "ytdl-core": "^4.11.0"
+  }
+}
